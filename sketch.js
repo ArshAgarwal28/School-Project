@@ -9,7 +9,7 @@ var db, allUsers;
 var clinic1Anim, clinic2Anim, clinic3Anim, clinic4Anim, clinic5Anim, clinic6Anim;
 
 function preload() {
-    illnessFont = loadFont('bahnschrift.TTF');
+    illnessFont = loadFont('bahnschrift.ttf');
     headingFont = loadFont('simplifica.ttf');
     
     clinic1Anim = loadImage("clinics/Clinic1.jpg")
