@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="p5.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <script src="p5.play.js"></script>
+        <script src="matter.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body>    
+        <script src="Page1.js"></script>
+        <script src="Page2.js"></script>
+        <script src="Page3.js"></script>
+        <script src="sketch.js"></script>
+
+        <textarea type="text" id="feedbackBox" width="400" height="300" style="position: absolute; left: 300px; top: 250px; width: 400px; height: 300px; display: none" placeholder="Your Feedback...."></textarea>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/dr-ashish-mittal-gurgaon-sector-49?specialization=Psychiatrist"><h2 style="top: 232px; left: 130px" id="clinicLink">Confidence Clinic</h2></a>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/mind-peace-clinic-gurgaon-sector-51?specialization=Psychiatrist"><h2 style="top: 232px; left: 430px" id="clinicLink">Mind Peace Clinic</h2></a>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/gurgaon-multispeciality-clinic-dlf-phase-iv?specialization=Psychiatrist"><h2 style="top: 232px; left: 682px" id="clinicLink">Gurgaon Multispeciality Clinic</h2></a>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/tulasi-healthcare-gurgaon-gurgaon-sector-64?specialization=Psychiatrist"><h2 style="top: 493px; left: 133px" id="clinicLink">Tulasi Healthcare</h2></a>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/mindfultms-gurgaon-dlf-phase-iv?specialization=Psychiatrist"><h2 style="top: 493px; left: 450px" id="clinicLink">Mindful TMS</h2></a>
+        
+        <a href="https://www.practo.com/gurgaon/clinic/doctors-hub-dlf-phase-iv?specialization=Psychiatrist"><h2 style="top: 493px; left: 750px" id="clinicLink">Doctors Hub</h2></a>
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyDfuMyRC00e05Z9QGRDVpFSYImxdtOYEDk",
+                authDomain: "schoolproject-b29a2.firebaseapp.com",
+                databaseURL: "https://schoolproject-b29a2.firebaseio.com",
+                projectId: "schoolproject-b29a2",
+                storageBucket: "schoolproject-b29a2.appspot.com",
+                messagingSenderId: "898987450783",
+                appId: "1:898987450783:web:6b06f62a6f5992dfceddaa"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+    </body>
+</html>
